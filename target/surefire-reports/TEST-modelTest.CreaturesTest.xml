@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="modelTest.CreaturesTest" time="0" tests="3" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="sun.desktop" value="windows"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.specification.version" value="11"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1251"/>
+    <property name="java.class.path" value="C:\Users\Анастасия\Documents\Univercity\Testing\LR1\target\test-classes;C:\Users\Анастасия\Documents\Univercity\Testing\LR1\target\classes;C:\Users\Анастасия\.m2\repository\org\junit\platform\junit-platform-commons\1.7.1\junit-platform-commons-1.7.1.jar;C:\Users\Анастасия\.m2\repository\org\apiguardian\apiguardian-api\1.1.0\apiguardian-api-1.1.0.jar;C:\Users\Анастасия\.m2\repository\org\junit\platform\junit-platform-engine\1.7.1\junit-platform-engine-1.7.1.jar;C:\Users\Анастасия\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\Анастасия\.m2\repository\org\junit\platform\junit-platform-launcher\1.7.1\junit-platform-launcher-1.7.1.jar;C:\Users\Анастасия\.m2\repository\org\junit\platform\junit-platform-runner\1.7.1\junit-platform-runner-1.7.1.jar;C:\Users\Анастасия\.m2\repository\org\junit\platform\junit-platform-suite-api\1.7.1\junit-platform-suite-api-1.7.1.jar;C:\Users\Анастасия\.m2\repository\org\junit\platform\junit-platform-testkit\1.7.1\junit-platform-testkit-1.7.1.jar;C:\Users\Анастасия\.m2\repository\org\assertj\assertj-core\3.16.1\assertj-core-3.16.1.jar;C:\Users\Анастасия\.m2\repository\org\junit\jupiter\junit-jupiter\5.7.1\junit-jupiter-5.7.1.jar;C:\Users\Анастасия\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.7.1\junit-jupiter-api-5.7.1.jar;C:\Users\Анастасия\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.7.1\junit-jupiter-engine-5.7.1.jar;C:\Users\Анастасия\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.7.1\junit-jupiter-params-5.7.1.jar;C:\Users\Анастасия\.m2\repository\org\mockito\mockito-core\3.8.0\mockito-core-3.8.0.jar;C:\Users\Анастасия\.m2\repository\net\bytebuddy\byte-buddy\1.10.20\byte-buddy-1.10.20.jar;C:\Users\Анастасия\.m2\repository\net\bytebuddy\byte-buddy-agent\1.10.20\byte-buddy-agent-1.10.20.jar;C:\Users\Анастасия\.m2\repository\org\objenesis\objenesis\3.1\objenesis-3.1.jar;"/>
+    <property name="java.vm.vendor" value="JetBrains s.r.o"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://www.jetbrains.com/"/>
+    <property name="user.timezone" value="Europe/Moscow"/>
+    <property name="java.vm.specification.version" value="11"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="RU"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\JetBrains\IntelliJ IDEA 2019.3.3\jbr\bin"/>
+    <property name="sun.java.command" value="C:\Users\08DE~1\AppData\Local\Temp\surefire8070728406452175577\surefirebooter16098270692575545054.jar C:\Users\Анастасия\AppData\Local\Temp\surefire8070728406452175577 2021-09-14T17-52-37_135-jvmRun1 surefire17143896206999286919tmp surefire_02747462089243815774tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\Users\Анастасия\Documents\Univercity\Testing\LR1\target\test-classes;C:\Users\Анастасия\Documents\Univercity\Testing\LR1\target\classes;C:\Users\Анастасия\.m2\repository\org\junit\platform\junit-platform-commons\1.7.1\junit-platform-commons-1.7.1.jar;C:\Users\Анастасия\.m2\repository\org\apiguardian\apiguardian-api\1.1.0\apiguardian-api-1.1.0.jar;C:\Users\Анастасия\.m2\repository\org\junit\platform\junit-platform-engine\1.7.1\junit-platform-engine-1.7.1.jar;C:\Users\Анастасия\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\Анастасия\.m2\repository\org\junit\platform\junit-platform-launcher\1.7.1\junit-platform-launcher-1.7.1.jar;C:\Users\Анастасия\.m2\repository\org\junit\platform\junit-platform-runner\1.7.1\junit-platform-runner-1.7.1.jar;C:\Users\Анастасия\.m2\repository\org\junit\platform\junit-platform-suite-api\1.7.1\junit-platform-suite-api-1.7.1.jar;C:\Users\Анастасия\.m2\repository\org\junit\platform\junit-platform-testkit\1.7.1\junit-platform-testkit-1.7.1.jar;C:\Users\Анастасия\.m2\repository\org\assertj\assertj-core\3.16.1\assertj-core-3.16.1.jar;C:\Users\Анастасия\.m2\repository\org\junit\jupiter\junit-jupiter\5.7.1\junit-jupiter-5.7.1.jar;C:\Users\Анастасия\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.7.1\junit-jupiter-api-5.7.1.jar;C:\Users\Анастасия\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.7.1\junit-jupiter-engine-5.7.1.jar;C:\Users\Анастасия\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.7.1\junit-jupiter-params-5.7.1.jar;C:\Users\Анастасия\.m2\repository\org\mockito\mockito-core\3.8.0\mockito-core-3.8.0.jar;C:\Users\Анастасия\.m2\repository\net\bytebuddy\byte-buddy\1.10.20\byte-buddy-1.10.20.jar;C:\Users\Анастасия\.m2\repository\net\bytebuddy\byte-buddy-agent\1.10.20\byte-buddy-agent-1.10.20.jar;C:\Users\Анастасия\.m2\repository\org\objenesis\objenesis\3.1\objenesis-3.1.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\Анастасия"/>
+    <property name="user.language" value="ru"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2019-10-15"/>
+    <property name="java.home" value="C:\Program Files\JetBrains\IntelliJ IDEA 2019.3.3\jbr"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Users\Анастасия\Documents\Univercity\Testing\LR1"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="C:\Users\08DE~1\AppData\Local\Temp\surefire8070728406452175577\surefirebooter16098270692575545054.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="11.0.5+10-b520.38"/>
+    <property name="user.name" value="Анастасия"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="Cp1251"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\Анастасия\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://youtrack.jetbrains.com"/>
+    <property name="java.io.tmpdir" value="C:\Users\08DE~1\AppData\Local\Temp\"/>
+    <property name="java.version" value="11.0.5"/>
+    <property name="user.dir" value="C:\Users\Анастасия\Documents\Univercity\Testing\LR1"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="idea.version2019.3.3" value="true"/>
+    <property name="java.library.path" value="C:\Program Files\JetBrains\IntelliJ IDEA 2019.3.3\jbr\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Program Files\TortoiseSVN\bin;C:\Users\Анастасия\AppData\Local\Microsoft\WindowsApps;C:\Program Files\JetBrains\IntelliJ IDEA Educational Edition 2019.3.1\bin;;C:\Program Files\ApacheAnt\apache-ant-1.9.15-bin\apache-ant-1.9.15\bin;C:\Program Files\Java\jdk1.8.0_241\bin;;C:\Program Files\JetBrains\DataGrip 2020.2.3\bin;;C:\Program Files\JetBrains\CLion 2020.3.1\bin;;C:\Users\Анастасия\AppData\Local\Programs\Microsoft VS Code\bin;."/>
+    <property name="java.vendor" value="JetBrains s.r.o"/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.vm.version" value="11.0.5+10-b520.38"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="55.0"/>
+  </properties>
+  <testcase name="dolphinBasicFieldsTest" classname="modelTest.CreaturesTest" time="0"/>
+  <testcase name="creatureSetFieldsTest" classname="modelTest.CreaturesTest" time="0"/>
+  <testcase name="personBasicFieldsTest" classname="modelTest.CreaturesTest" time="0"/>
+</testsuite>

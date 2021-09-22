@@ -5,7 +5,9 @@ import model.ActivityType;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
+import org.junit.jupiter.api.TestInstance;
 
+@TestInstance(TestInstance.Lifecycle.PER_CLASS)
 public class ActivityTest {
     private Activity activity;
 
@@ -15,13 +17,13 @@ public class ActivityTest {
     }
 
     @Test
-    public void createActivityTest() {
+    void createActivityTest() {
         Assertions.assertEquals(activity.getType(), ActivityType.ENTERTAINMENT);
         Assertions.assertEquals(activity.getDescription(), "some desc");
     }
 
     @Test
-    public void setActivityTest() {
+    void setActivityTest() {
         activity.setType(ActivityType.INVENTING);
         activity.setDescription("new desc");
 

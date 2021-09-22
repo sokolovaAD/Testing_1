@@ -18,7 +18,7 @@ public class TruthTest {
     }
 
     @Test
-    public void truthTest() {
+    void truthTest() {
         truth.makeStatus(person, dolphin, "Люди");
         Assertions.assertEquals(truth.status, "Истина такова, какой кажется");
         Assertions.assertFalse(truth.isFact);

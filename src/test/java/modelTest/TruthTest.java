@@ -32,4 +32,12 @@ public class TruthTest {
         Assertions.assertTrue(truth.isFact);
     }
 
+    @Test
+    void truthIsNotKnownTest() {
+        person.activity.setType(ActivityType.ENTERTAINMENT);
+        dolphin.activity.setType(ActivityType.INVENTING);
+        truth.makeStatus(person, dolphin, "Жабы");
+        Assertions.assertEquals(truth.status, "Истина не определена");
+    }
+
 }
